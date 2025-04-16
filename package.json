@@ -1,0 +1,46 @@
+{
+  "name": "muban.js",
+  "version": "0.0.1",
+  "description": "tem",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "pkgroll --minify --clean-dist",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjcrender/muban.js.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "zjcrender",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zjcrender/muban.js/issues"
+  },
+  "homepage": "https://github.com/zjcrender/muban.js#readme",
+  "files": [
+    "dist",
+    "README.MD",
+    "package.json"
+  ],
+  "devDependencies": {
+    "pkgroll": "^2.12.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5",
+    "vitest": "^3.1.1"
+  }
+}
