@@ -1,7 +1,7 @@
 {
   "name": "muban.js",
   "version": "0.0.1",
-  "description": "tem",
+  "description": "a simple template engine for javascript",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",

@@ -33,9 +33,6 @@ fruits:
   <li>{{$index}}: {{fruit}}</div>
 {{/each}}
 </ul>
-{{each fruit in fruits}}
-  <div>{{$index}}: {{fruit}}</div>
-{{/each}}
 `
 const data = {
   fruits: ["apple", "banana", "orange"]
